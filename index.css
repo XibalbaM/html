@@ -1,3 +1,7 @@
+html {
+    height: 100vh;
+    overflow: hidden;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -5,8 +9,9 @@ body {
     background-color: black;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
 }
 img {
     aspect-ratio: auto;
-    width: 50vw;
+    height: 100%;
 }
